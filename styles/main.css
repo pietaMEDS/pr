@@ -1,0 +1,52 @@
+html,
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background: white;
+	color: black;
+	font-family: 'SanFrancisco', sans-serif;
+}
+
+.top{
+	background: black;
+	color: white;
+}
+
+div{
+	width: auto;
+}
+
+header{
+	height: 5em;
+	width: 100%;
+}
+
+.top-center h1{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 120%;
+	width: 100%;
+	text-align: center;
+
+}
+
+.header-head{
+	padding-top: 1.5em;
+	display: inline-flex;
+	width: 100%;
+}
+
+.top-alignleft{
+	padding-left: 3em ;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.top-alignright{
+	margin-left: auto;
+	padding-right: 3em ;
+	margin-right: 0;
+}
