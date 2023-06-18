@@ -10,8 +10,10 @@ body{
 }
 
 .top{
-	background: black;
+	background: #060A0D;
 	color: white;
+	height: 60.5em;
+	margin-bottom: 5.5em;
 }
 
 div{
@@ -23,14 +25,42 @@ header{
 	width: 100%;
 }
 
+h1{
+	padding: 0;
+	margin: 0;
+}
+
+.text-center{
+	text-align: center;
+}
+
 .top-center h1{
 	font-style: normal;
 	font-weight: 400;
 	font-size: 64px;
-	line-height: 120%;
 	width: 100%;
 	text-align: center;
+}
 
+.top-center{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.top-center button{
+	color: white;
+	background-color: #D18200;
+	margin-top: 2em;
+	vertical-align: middle;
+	display: inline-flex;
+	padding-top: 0.8em ;
+	border-radius: 10em;
+	width: 12%;
+	height: 3em;
+	justify-content: space-evenly;
+	border: 0;
+	margin-bottom: 1em;
 }
 
 .header-head{
@@ -49,4 +79,112 @@ header{
 	margin-left: auto;
 	padding-right: 3em ;
 	margin-right: 0;
+}
+
+.orange-text{
+	text-align: center;
+	color: #D18200;
+	margin-bottom: 0.5em;
+}
+
+.txt{
+	margin-bottom: 2em;
+}
+
+.topBG{
+	background-image: url(../assets/topBG.png);
+	background-size: 62%;
+	background-repeat: no-repeat ;
+	background-position:12em 2.5em;
+	width: 100%;
+	height: 15em;
+	margin-bottom: 20em;
+}
+
+.arrow{
+	width: 2.3em;
+	height: 2.3em;
+	border-bottom: rgba(255, 255, 255, 0.6) 5px solid;
+	border-right: rgba(255, 255, 255, 0.6) 5px solid;
+	transform: rotate(45deg);
+	border-radius: 5px;
+}
+
+.arrowin{
+	border-radius: 2px;
+	border-bottom: rgba(255, 255, 255, 0.6) 3px solid;
+	border-right: rgba(255, 255, 255, 0.6) 3px solid;
+	transform: rotate(0deg);
+	opacity: 0%;
+	width: 1em ;
+	height: 1em ;
+	animation: 1.5s ease-out 1s infinite arrow ;
+}
+
+.techThing h1{
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.line{
+	height: 1px;
+	width: 12em;
+	background-color: #D18200;
+}
+
+.table-dashline td{
+	border-bottom: dashed 1px gray;
+}
+
+.table-dashline td:nth-child(2){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+
+.table-dashline td:nth-child(4){
+	border-left: solid 1px gray;
+}
+.table-dashline td:nth-child(5){
+	border-right: solid 1px gray;
+}
+
+.table-dashline td:nth-child(7){
+	border-left: solid 1px gray;
+}
+.table-dashline td:nth-child(8){
+	border-right: solid 1px gray;
+}
+
+.table-dashline td:nth-child(10){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+
+.table-dashline td:nth-child(12){
+	border-left: solid 1px gray;
+}
+.table-dashline td:nth-child(13){
+	border-right: solid 1px gray;
+}
+
+.table-dashline td:nth-child(15){
+	border-left: solid 1px gray;
+}
+.table-dashline td:nth-child(16){
+	border-right: solid 1px gray;
+}
+
+@keyframes arrow{
+	0%{
+		opacity: 0%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	100%{
+		opacity: 0%;
+		transform: translate(15px, 15px);
+	}
 }
