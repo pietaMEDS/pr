@@ -55,7 +55,28 @@ table tr td:first-child{
 	border-right: solid 1px gray;
 }
 
+table:nth-child(2) tr:nth-child(2) td:nth-child(10){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+table:nth-child(2) tr:nth-child(2) td:nth-child(12){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+table:nth-child(2) tr:nth-child(2) td:nth-child(14){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+
  .table-dashline td:nth-child(10){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+table:nth-child(2)  .table-dashline td:nth-child(12){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+table:nth-child(2)  .table-dashline td:nth-child(14){
 	border-left: solid 1px gray;
 	border-right: solid 1px gray;
 }
@@ -73,11 +94,11 @@ table:first-child .table-dashline td:nth-child(15){
 table:first-child .table-dashline td:nth-child(16){
 	border-right: solid 1px gray;
 }
-table:last-child .table-dashline td:nth-child(12){
+table:nth-child(2) .table-dashline td:nth-child(12){
 	border-right: solid 1px gray;
 	border-left: solid 1px gray;
 }
-table:last-child .table-dashline td:nth-child(14){
+table:nth-child(2) .table-dashline td:nth-child(14){
 	border-right: solid 1px gray;
 	border-left: solid 1px gray;
 }
@@ -180,13 +201,13 @@ table tr:nth-child(18) td:nth-child(10){
 	border-bottom:solid 1px gray;
 	border-radius: 3px;
 }
-table:last-child tr:nth-child(18) td:nth-child(12){
+table:nth-child(2) tr:nth-child(18) td:nth-child(12){
 	border-left: solid 1px gray;
 	border-right: solid 1px gray;
 	border-bottom:solid 1px gray;
 	border-radius: 3px;
 }
-table:last-child tr:nth-child(18) td:nth-child(14){
+table:nth-child(2) tr:nth-child(18) td:nth-child(14){
 	border-left: solid 1px gray;
 	border-right: solid 1px gray;
 	border-bottom:solid 1px gray;
