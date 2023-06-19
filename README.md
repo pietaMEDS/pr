@@ -1,1 +1,6 @@
-i am soo lazy
+
+	#Working...
+
+- [x] Frame
+- [] Function
+- [] fix bugs

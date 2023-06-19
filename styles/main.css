@@ -256,6 +256,61 @@ ul li{
 	margin-bottom: 5em;
 }
 
+footer{
+	padding-right: 100px;
+	width: 100%;
+	display: inline-flex;
+}
+
+.contacts{
+	width: 45%;
+	margin-right: 0;
+	margin-left: auto;
+	text-align: center;
+}
+
+footer div:nth-child(1){
+	width: 50%;
+	margin-right: auto;
+	margin-left: 0;
+	text-align: left;
+	padding-left: 5em;
+}
+
+.map-mark{
+	list-style-image: url(../assets/map-mark.png);
+}
+.phone-mark{
+	list-style-image: url(../assets/phone-mark.png);
+}
+.mail-mark{
+	list-style-image: url(../assets/mail-mark.png);
+}
+
+.social{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-evenly;
+}
+.social img{
+	width: 30px;
+	height: auto;
+}
+
+.contacts ul li{
+	font-size: 13px;
+	margin-bottom: 5px;
+	width: 15em;
+}
+
+.contacts{
+	width: auto;
+}
+
+.contacts ul{
+	margin-top: 15px;
+}
+
 @keyframes arrow{
 	0%{
 		opacity: 0%;
