@@ -196,6 +196,7 @@ ul li{
 
 .distribute{
 	justify-content: space-around;
+	margin-bottom: 10em;
 }
 
 .distribute div{
@@ -210,6 +211,50 @@ ul li{
 	width: 100%;
 }
 
+.documents{
+	padding-top:60px;
+	color: white;
+	background: linear-gradient(254.81deg, #060A0D 4.61%, rgba(6, 10, 13, 0.64) 38.13%), linear-gradient(60.29deg, #060A0D -3.13%, rgba(6, 10, 13, 0.58) 64.86%);;
+}
+
+.documents h1{
+	font-size: 30px;
+	font-style: normal;
+}
+
+.documents container{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+.doc{
+	width: auto;
+	display: grid;
+	grid-template-areas:
+	"file name"
+	"file desc";
+}
+.doc div{
+	height: auto;
+}
+.doc img{
+	height: 45px;
+}
+.doc div:nth-child(1){
+	grid-area: file;
+}
+.doc div:nth-child(2){
+	grid-area: name;
+}
+.doc div:nth-child(3){
+	text-align: start;
+	grid-area: desc;
+}
+
+.documents container{
+	margin-bottom: 5em;
+}
 
 @keyframes arrow{
 	0%{
