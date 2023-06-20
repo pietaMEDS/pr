@@ -3,26 +3,47 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<link rel="stylesheet" type="text/css" href="styles/table.css">
-	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/func.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 </head>
 <body>
+
+	<section id="orderForm" class="HUD close-func">
+		<form>
+			<div class="close-button"><img src="assets/close.png"></div>
+			<h1 class="text-center orange-text">ОТПРАВИТЬ ЗАЯВКУ</h1>
+		<h3 class="text-center">Заполните форму, и мы свяжемся с вами!</h3>
+			<div class="form-factor">
+				<input required class="input-text" type="text" name="name" placeholder="Ваше имя*">
+				<input required type="text" name="telephone" placeholder="Контактный телефон*">
+				<input required type="email" name="email" placeholder="Электронная почта*">
+				<input required type="text" name="fabric" placeholder="Предприяте*">
+				<textarea placeholder="Комментарий"></textarea>
+				<label>Отправляя заявку, вы соглашаетесь на обработку</label>
+				<label>персональных данных согласно политике конфиденциальности</label>
+				<input type="submit" value="ОСТАВИТЬ ЗАЯВКУ →">
+			</div>
+		</form>
+
+	</section>
+
+
 	<section class="top">
 		<header>
 			<container class="header-head">
-				<div class="top-alignleft">AT Drive</div>
+				<div class="top-alignleft orange-text-func"><a href="index.html" class="orange-text-func">AT Drive</a></div>
 				<div class="top-alignright">
-					sales@at-drive.ru 
+					<a href="mailto:sales@at-drive.ru" class="orange-text-func">sales@at-drive.ru</a>
 					<br/>
-					+7 495 226 02 99
+					<a href="tel:+74952260299" class="orange-text-func">+7 495 226 02 99</a>
 				</div>
 			</container>
 		</header>
 		<container class="top-center">
 			<h1>AT DRIVE</h1>
-			<button>
+			<button id="orderButton">
 				<div>ЗАКАЗАТЬ</div>
 				<div>→</div>
 			</button>
@@ -39,11 +60,11 @@
 			<div class="topBG"></div>
 
 			<div class="top-center">
-			<div class="arrow"><div class="arrow arrowin"></div></div>
+			<a href="#techthing"><div class="arrow arrow-func"><div class="arrow arrowin"></div></div></a>
 			</div>
 	</section>
 
-	<section class="top-center techthing">
+	<section class="top-center techthing" id="techthing">
 		
 		<h1 class="text-center">ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</h1>
 		<div class="line"></div>
@@ -718,76 +739,88 @@
 		<div class="line"></div>
 
 		<container>
-			<div class="doc top-center">
-				<div><img src="assets/docs.png" style="width:100%"></div>
+			<a href="https://at-drive.ru/wp-content/uploads/2023/01/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-ATD.pdf">
+			<div class="doc orange-text-func top-center">
+				<div><img class="img-orange-func" src="assets/docs.png" style="width:100%"></div>
 				<div>Техническое руководство</div>
 				<div class="orange-text">12.82 Mb*.pdf</div>
 			</div>
-			<div class="doc top-center">
-				<div><img src="assets/docs.png" style="width:100%"></div>
+			</a>
+			<div class="doc orange-text-func top-center">
+				<div><img class="img-orange-func" src="assets/docs.png" style="width:100%"></div>
 				<div>Инструкция по установке</div>
 				<div class="orange-text">Схема установки</div>
 			</div>
-			<div class="doc top-center">
-				<div><img src="assets/docs.png" style="width:100%"></div>
+			<a href="https://at-drive.ru/wp-content/uploads/2022/10/Temperature_sensor_characteristics-1.pdf">
+			<div class="doc orange-text-func top-center">
+				<div><img class="img-orange-func" src="assets/docs.png" style="width:100%"></div>
 				<div>Инструкция по датчику температуры</div>
 				<div class="orange-text">1.27 Mb*.pdf</div>
 			</div>
-			<div class="doc top-center">
-				<div><img src="assets/docs.png" style="width:100%"></div>
+			</a>
+			<a href="https://at-drive.ru/wp-content/uploads/2022/10/Hall_Sensor-Features-by-TLE4945-2.pdf">
+			<div class="doc orange-text-func top-center">
+				<div><img class="img-orange-func" src="assets/docs.png" style="width:100%"></div>
 				<div>Инструкция по датчику Холла</div>
 				<div class="orange-text">0.3 Mb*.pdf</div>
 			</div>
-			<div class="doc top-center">
-				<div><img src="assets/docs.png" style="width:100%"></div>
+			</a>
+			<a href="https://at-drive.ru/wp-content/uploads/2022/10/atd_instrukcziya-po-montazhu_rus_a4.pdf">
+			<div class="doc orange-text-func top-center">
+				<div><img class="img-orange-func" src="assets/docs.png" style="width:100%"></div>
 				<div>Инструкция по монтажу ATD</div>
 				<div class="orange-text">7.3 Mb*.pdf</div>
 			</div>
-			<div class="doc top-center">
-				<div><img src="assets/docs.png" style="width:100%"></div>
+			</a>
+			<a href="https://at-drive.ru/wp-content/uploads/2022/10/datasheet-atd-rus.pdf">
+			<div class="doc orange-text-func top-center">
+				<div><img class="img-orange-func" src="assets/docs.png" style="width:100%"></div>
 				<div>DataSheet</div>
 				<div class="orange-text">1.89 Mb*.pdf</div>
 			</div>
-			<div class="doc top-center">
-				<div><img src="assets/docs.png" style="width:100%"></div>
+			</a>
+			<div class="doc orange-text-func top-center">
+				<div><img class="img-orange-func" src="assets/docs.png" style="width:100%"></div>
 				<div>3D модели</div>
 				<div class="orange-text">формат .stp</div>
 			</div>
-			<div class="doc top-center">
-				<div><img src="assets/docs.png" style="width:100%"></div>
+			<div class="doc orange-text-func top-center">
+				<div><img class="img-orange-func" src="assets/docs.png" style="width:100%"></div>
 				<div>3D модели</div>
 				<div class="orange-text">формат .x_t</div>
 			</div>
-			<div class="doc top-center">
-				<div><img src="assets/docs.png" style="width:100%"></div>
+			<a href="https://at-drive.ru/wp-content/uploads/2023/03/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3ATDrive.pdf">
+			<div class="doc orange-text-func top-center">
+				<div><img class="img-orange-func" src="assets/docs.png" style="width:100%"></div>
 				<div>Каталог ATD</div>
 				<div class="orange-text">14.59 Mb*.pdf</div>
 			</div>
+			</a>
 			<div class="expand"></div>
 		</container>
 
 		<footer>
-			<div><img src="assets/logo.svg"></div>
+			<a href="index.html"><img src="assets/logo.svg"></a>
 			<div class="contacts top-center">
 				<div>
 					Контакты
 					<ul>
 						<li class="map-mark">109518, г. Москва ул. Грайвороновская, д.23</li>
-						<li class="phone-mark">+7 495 226-02-99</li>
-						<li class="phone-mark">+7 495 226-12-99</li>
-						<li class="phone-mark">+7 495 226-14-99</li>
-						<li class="mail-mark">info@npo-at.ru</li>
+						<li class="phone-mark"><a class="orange-text-func" href="tel:+74952260299">+7 495 226-02-99</a></li>
+						<li class="phone-mark"><a class="orange-text-func" href="tel:+74952261299">+7 495 226-12-99</a></li>
+						<li class="phone-mark"><a class="orange-text-func" href="tel:+74952261499">+7 495 226-14-99</a></li>
+						<li class="mail-mark"><a class="orange-text-func" href="mailto:info@npo-at.ru">info@npo-at.ru</a></li>
 					</ul>
 				</div>
 				<div>
 					<ul>
 						<li class="map-mark">455048, г. Магнитогорск пер. Мурманский д. 21</li>
-						<li class="phone-mark">+7 909 094-18-88</li>
-						<li class="mail-mark">sales@npo-at.ru</li>
+						<li class="phone-mark"><a class="orange-text-func" href="tel:+79090941888">+7 909 094-18-88</a></li>
+						<li class="mail-mark"><a class="orange-text-func" href="mailto:sales@npo-at.ru">sales@npo-at.ru</a></li>
 					</ul>
 					<div class="social top-center">
 						<a href="#"><img src="assets/tg-mark.png"></a>
-						<a href="#"><img src="assets/yt-mark.png"></a>
+						<a href="https://www.youtube.com/c/RUSANDROID" class="orange-text-func"><img src="assets/yt-mark.png"></a>
 						<a href="#"><img src="assets/vk-mark.png"></a>
 					</div>
 				</div>
@@ -795,5 +828,7 @@
 		</footer>
 	</section>
 
+
+<script type="text/javascript" src="scripts/open-Func.js"></script>
 </body>
 </html>

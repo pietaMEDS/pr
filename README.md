@@ -3,11 +3,11 @@
 
 - PC
 - [x] Frame
-- [ ] Function
+- [x] Function
 - [ ] fix bugs
 
 
 - Mobile
 - [ ] Frame
-- [ ] Function
+- [x] Function
 - [ ] fix bugs
