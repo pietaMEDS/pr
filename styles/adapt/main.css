@@ -1,0 +1,92 @@
+@media screen and (max-width:770px){
+	.arrow{
+		display: none;
+	}
+
+	.hidden{
+	display: none !important;
+}
+
+.show{
+	display: block !important;
+}
+
+	.top container h1{
+		font-size: 60px;
+	}
+
+	.HUD form{
+		width: 90%;
+	}
+
+	.close-button{
+		top: 4%;
+		right: 5%;
+	}
+
+	header{
+		margin-bottom: 25%;
+	}
+
+	.techthing{
+		overflow: hidden;
+	}
+
+	.techthing container{
+		display: block;
+	}
+	.techthing container .top-center{
+	width: 100% !important;
+	}
+	.techthing container div:first-child {
+    width: 100%;
+}
+	.analogs .top-center:first-child{
+		width: 80% !important;
+	}
+	.analogs div{
+		width: 80% !important;
+	}
+	.analogs div img{
+		width: 100% !important;
+	}
+
+	.logos{
+		width: 60% !important;
+	}
+
+	.top{
+		height: 90%;
+		background:linear-gradient(180deg, #2F2D36 -4.49%, #0A1014 100%);
+	}
+	.top div{
+		margin-bottom: 5%;
+	}
+
+	.PCshow{
+		display: none;
+	}
+
+	.MobileShow{
+		display: block;
+	}
+
+	.MobileTable{
+		display: none;
+	}
+
+	.choice{
+		display: block !important;
+	}
+
+
+
+	.products{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		overflow: hidden;
+		list-style: inline;
+		list-style-type:none ;
+	}
+}
