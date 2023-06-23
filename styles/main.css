@@ -308,6 +308,7 @@ ul li{
 }
 
 .documents{
+	overflow: hidden;
 	padding-top:60px;
 	color: white;
 	background: linear-gradient(254.81deg, #060A0D 4.61%, rgba(6, 10, 13, 0.64) 38.13%), linear-gradient(60.29deg, #060A0D -3.13%, rgba(6, 10, 13, 0.58) 64.86%);;
