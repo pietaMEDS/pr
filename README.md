@@ -4,7 +4,7 @@
 - PC
 - [x] Frame
 - [x] Function
-- [ ] fix bugs
+- [x] fix bugs
 
 
 - Mobile

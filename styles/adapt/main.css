@@ -55,6 +55,10 @@
 		width: 60% !important;
 	}
 
+	.topBG{
+		height: 30%;
+	}
+
 	.top{
 		height: 90%;
 		background:linear-gradient(180deg, #2F2D36 -4.49%, #0A1014 100%);

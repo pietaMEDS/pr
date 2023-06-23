@@ -9,6 +9,11 @@ body{
 	font-family: 'SanFrancisco', sans-serif;
 }
 
+.social{
+	width: 70% !important;
+
+}
+
 .HUD{
 	z-index: -50;
 	padding-top: 7%;
@@ -357,6 +362,10 @@ footer{
 	padding-right: 100px;
 	width: 100%;
 	display: inline-flex;
+}
+
+footer > a{
+	height: 3em;
 }
 
 .contacts{

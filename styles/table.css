@@ -1,12 +1,36 @@
 .PCshow{
 	font-size: 15px;
 	width: 90%;
+}
+
+table{
 	margin-bottom: 8em;
+}
+.tabletwo{
+	margin-bottom: 0;
 }
 
 .PCshow .orange-text:nth-child(1){
 	font-size: 30px;
+}
 
+.tabletwo tr:nth-child(2) td:nth-child(10){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+.tabletwo tr td:nth-child(12){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+.tabletwo tr td:nth-child(14){
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+}
+.tabletwo tr:nth-child(18) td:nth-child(12){
+	border-bottom: solid 1px gray;
+}
+.tabletwo tr:nth-child(18) td:nth-child(14){
+	border-bottom: solid 1px gray;
 }
 
 .PCshow td{
