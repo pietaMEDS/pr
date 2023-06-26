@@ -371,6 +371,10 @@ a{
 	margin-bottom: 5em;
 }
 
+select option:hover{
+	background-color: red;
+}
+
 footer{
 	padding-left: 100px;
 	margin-top: 1%;
