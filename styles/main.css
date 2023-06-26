@@ -14,6 +14,18 @@ body{
 
 }
 
+select{
+	width: auto;
+	color: white;
+	border: 0;
+	background-color: rgba(0,0,0,0);
+}
+
+select option{
+	overflow: scroll;
+	background-color: #2F2E36;
+}
+
 .HUD{
 	z-index: -50;
 	padding-top: 7%;
@@ -360,6 +372,8 @@ a{
 }
 
 footer{
+	padding-left: 100px;
+	margin-top: 1%;
 	padding-right: 100px;
 	width: 100%;
 	display: inline-flex;
@@ -424,6 +438,12 @@ footer div:nth-child(1){
 }
 .documents container{
 	height: auto;
+}
+
+.delimitr{
+	height: 1px;
+	width: 100%;
+	background-color: white;
 }
 
 @keyframes arrow{
