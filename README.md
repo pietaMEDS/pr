@@ -10,4 +10,7 @@
 - Mobile
 - [x] Frame
 - [x] Function
-- [ ] fix bugs
+- [x] fix bugs
+
+
+All bug fixed, but...
