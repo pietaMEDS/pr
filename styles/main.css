@@ -371,10 +371,13 @@ a{
 	margin-bottom: 5em;
 }
 
+<<<<<<< HEAD
 .documents container a, .documents container > div{
 	margin-bottom: 2em;
 }
 
+=======
+>>>>>>> origin/main
 select option:hover{
 	background-color: red;
 }
