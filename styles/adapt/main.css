@@ -4,12 +4,12 @@
 	}
 
 	.hidden{
-	display: none !important;
-}
+		display: none !important;
+	}
 
-.show{
-	display: block !important;
-}
+	.show{
+		display: block !important;
+	}
 
 	.top container h1{
 		font-size: 60px;
@@ -40,7 +40,7 @@
 	}
 	.techthing container div:first-child {
     width: 100%;
-}
+	}
 	.analogs .top-center:first-child{
 		width: 80% !important;
 	}
@@ -83,7 +83,21 @@
 		display: block !important;
 	}
 
+	.contacts > div{
+		padding: 0 !important;
+		margin: 0 !important;
+		width: 49% !important;
+	}
 
+	.contacts{
+		width: 100%;
+	}
+
+	footer{
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
 
 	.products{
 		display: flex;

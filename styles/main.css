@@ -371,6 +371,14 @@ a{
 	margin-bottom: 5em;
 }
 
+.documents container a, .documents container > div{
+	margin-bottom: 2em;
+}
+
+select option:hover{
+	background-color: red;
+}
+
 footer{
 	padding-left: 100px;
 	margin-top: 1%;

@@ -14,13 +14,22 @@
 	text-decoration: none;
 	transition: 0.3s;
 }
-
 .arrow-func:hover{
 	translate: 0px 15px;
 	transition: 0.5s;
 }
 .arrow-func{
 	transition: 0.5s;
+}
+
+/*select:active >
+option:focus-visible { 				this shit dont work
+    color: red;
+}
+*/
+
+option:checked{
+	color: #FCA311;
 }
 
 .orange-text-func:hover img
