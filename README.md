@@ -12,6 +12,7 @@
 - [x] Function
 - [x] fix bugs
 
+- Spec
 - [x] Specialized bugs
 
 Okay, now is 7:19 and i over this site.
