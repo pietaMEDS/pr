@@ -1,3 +1,9 @@
+@media screen and (max-height:725px){
+	.topBG{
+		display: none;
+	}
+}
+
 @media screen and (max-width:770px){
 	.arrow{
 		display: none;
